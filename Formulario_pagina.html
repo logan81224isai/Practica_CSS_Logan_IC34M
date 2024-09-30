@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huerta Martinez Logan Isai</title>
+    <style>
+        form {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #506068;
+            background-color: #4e4e50;
+        }
+    </style>
+</head>
+<body>
+    <h1>Subir Informacion de Musica</h1>
+    <form action="datos.html" method="get" enctype="multipart/form-data">
+        <label for="nombre">Nombre Cancion:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="ubicacion">Nombre del Cantante:</label>
+        <input type="text" id="Cantante" name="Cantante" required><br><br>
+
+        <label for="imagen">Subir Imagen de la portada:</label>
+        <input type="file" id="imagen" name="imagen" accept="image/*" required><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

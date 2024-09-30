@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Huerta Martinez Logan Isai</title>
+  <style>
+    form {
+      width: 50%;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #464549;
+      background-color: #999999;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, select {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    input[type="submit"] {
+      background-color: #0f857f;
+      color: #aaaab3;
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Formulario de Canciones</h1>
+  <form>
+    <label for="nombre">Nombre cancion:</label>
+    <input type="text" id="nombre" name="nombre">
+    
+    <label for="tipo">Tipo de Genro:</label>
+    <select id="tipo" name="tipo">
+      <option value="Naturaleza">Funk</option>
+      <option value="Ciudad">Pop</option>
+    </select>
+    
+    <label for="vacunado">¿Te gusta la cancion?</label>
+    <input type="checkbox" id="cancion" name="cancion"> Sí
+    
+    <label>¿El genero es?</label>
+    <input type="radio" id="Funk" name="Genero" value="Funk"> Funk
+    <input type="radio" id="Pop" name="Genero" value="Pop"> Pop
+    
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
